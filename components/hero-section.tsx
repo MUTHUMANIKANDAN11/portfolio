@@ -21,11 +21,15 @@ export default function HeroSection() {
             delightful.
           </p>
           <div className="flex gap-4 pt-4">
-            <Button>
-              View Projects
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button variant="outline">Contact Me</Button>
+            <a href="#projects">
+              <Button>
+                View Projects
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
+            <a href="#contact">
+              <Button variant="outline">Contact Me</Button>
+            </a>
           </div>
         </div>
         <div className="flex-1 flex justify-center md:justify-end">
